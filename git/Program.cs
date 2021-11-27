@@ -14,7 +14,7 @@ namespace git
             int a = int.Parse(Console.ReadLine());
 
             int b = a * a;
-            Console.WriteLine($"{a} * {a} = {b}");
+            Console.WriteLine($"{a} * {a} = {logic.powerOf2(a)}");
 
         }
     }
