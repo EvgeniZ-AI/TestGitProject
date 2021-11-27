@@ -10,6 +10,10 @@ namespace git
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Введите число");
+            int a = int.Parse(Console.ReadLine());
+            Console.WriteLine($"{a} * {a} = {a * a}");
+
             Console.WriteLine("Hello World!!!");
         }
     }
