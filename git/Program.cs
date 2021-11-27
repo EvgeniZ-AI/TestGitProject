@@ -16,7 +16,6 @@ namespace git
             int b = a * a;
             Console.WriteLine($"{a} * {a} = {b}");
 
-            Console.WriteLine("Hello World!!!");
         }
     }
 }
