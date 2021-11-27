@@ -10,7 +10,7 @@ namespace git
     {
         public class log
         {
-            public int Power(int a,int p)
+            public static int Power(int a,int p)
             {
                 return (int)Math.Pow(a, p);
             }
