@@ -13,8 +13,10 @@ namespace git
             Console.WriteLine("Введите число");
             int a = int.Parse(Console.ReadLine());
 
-            int b = a * a;
-            Console.WriteLine($"{a} * {a} = {logic.powerOf2(a)}");
+            Console.WriteLine("Введите второе число");
+            int p = int.Parse(Console.ReadLine());
+
+            Console.WriteLine($"{a} * {a} = {logic.Power(a,p)}");
 
         }
     }
