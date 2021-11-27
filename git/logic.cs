@@ -6,13 +6,14 @@ using System.Threading.Tasks;
 
 namespace git
 {
-    public class logic
+    class logic
     {
         
-            public static int powerOf2(int a)
+            public static int Power(int a,int p)
             {
-                return a * a;
+                return (int)Math.Pow(a, p);
             }
         
+        }
     }
 }
